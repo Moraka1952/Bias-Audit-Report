@@ -1,105 +1,105 @@
 # Full Bias Audit Report Documentation
 🧠 MediMind Group – Bias Audit Report
-👥 Group Members
+**👥 Group Members**
 
-Siyabonga Mahlangu
+- Siyabonga Mahlangu
 
-Koketso Bambo
+- Koketso Bambo
 
-Lindiwe Mkuzangwe
+- Lindiwe Mkuzangwe
 
-Georgia Legodi
+- Georgia Legodi
 
-Konke Maphisa
+- Konke Maphisa
 
-Banele Magubane
+- Banele Magubane
 
-📚 Project Overview
+**📚 Project Overview**
 
 This project analyzes and mitigates bias in an income prediction AI model. Our goal was to identify disparities across gender and racial groups, implement mitigation strategies, and ensure fair and ethical AI outcomes.
 
-🔍 Key Deliverables
+**🔍 Key Deliverables**
 
-📝 Analysis Notebook
+**1.📝 Analysis Notebook**
 
-Complete Python notebook with code, visualizations, and findings
+- Complete Python notebook with code, visualizations, and findings
 
-Includes data cleaning, EDA, baseline and mitigated model evaluations
+- Includes data cleaning, EDA, baseline and mitigated model evaluations
 
-Fairness metrics computed: Demographic Parity Difference, Equal Opportunity Difference, Disparate Impact
+- Fairness metrics computed: Demographic Parity Difference, Equal Opportunity Difference, Disparate Impact
 
-📊 Presentation Slides
+**2.📊 Presentation Slides**
 
-5–7 slides summarizing:
+- 5–7 slides summarizing:
 
-Key bias patterns discovered
+- Key bias patterns discovered
 
-Mitigation strategies implemented
+- Mitigation strategies implemented
 
-Real-world implications
+- Real-world implications
 
-Recommendations for stakeholders
+- Recommendations for stakeholders
 
-⚖️ Ethics Statement
+**3.⚖️ Ethics Statement**
 
-500-word analysis connecting findings to broader AI ethics principles
+- 500-word analysis connecting findings to broader AI ethics principles
 
-Covers justice, fairness, accountability, transparency, and non-discrimination
+- Covers justice, fairness, accountability, transparency, and non-discrimination
 
-📖 Reference List
+**4.📖 Reference List**
 
-Relevant fairness research and frameworks, including:
+- Relevant fairness research and frameworks, including:
 
-Barocas et al., 2019 – Fairness and Machine Learning
+- Barocas et al., 2019 – Fairness and Machine Learning
 
-Kamiran & Calders, 2012 – Data Preprocessing Techniques
+- Kamiran & Calders, 2012 – Data Preprocessing Techniques
 
-Hardt et al., 2016 – Equality of Opportunity in Supervised Learning
+- Hardt et al., 2016 – Equality of Opportunity in Supervised Learning
 
-Fairlearn & AI Fairness 360 toolkits
+- Fairlearn & AI Fairness 360 toolkits
 
-⚡ Key Findings
+**⚡ Key Findings**
 
-Gender Bias: Females systematically underpredicted for high-income outcomes (>50K)
+**Gender Bias:** Females systematically underpredicted for high-income outcomes (>50K)
 
-Racial Bias: Minority racial groups underpredicted compared to White and Asian-Pac-Islander individuals
+**Racial Bias:** Minority racial groups underpredicted compared to White and Asian-Pac-Islander individuals
 
-Metrics Before Mitigation:
+**Metrics Before Mitigation:**
 
-Gender Demographic Parity Difference: 0.134
+- Gender Demographic Parity Difference: 0.134
 
-Racial Parity Difference: 0.300
+- Racial Parity Difference: 0.300
 
-Metrics After Mitigation (Reweighing + Threshold Optimization):
+- Metrics After Mitigation (Reweighing + Threshold Optimization):
 
-Gender Demographic Parity Difference: 0.044
+- Gender Demographic Parity Difference: 0.044
 
-Racial Parity Difference: 0.043
+- Racial Parity Difference: 0.043
 
-Equalized Odds Differences near zero
+- Equalized Odds Differences near zero
 
-Overall model accuracy remained ~81%
+- Overall model accuracy remained ~81%
 
-🛠 Mitigation Strategies Implemented
+**🛠 Mitigation Strategies Implemented**
 
-Reweighing – Adjusted training data weights to ensure underrepresented groups were considered fairly
+- Reweighing – Adjusted training data weights to ensure underrepresented groups were considered fairly
 
-Threshold Optimization – Customized decision thresholds for sensitive groups to balance true/false positive rates
+- Threshold Optimization – Customized decision thresholds for sensitive groups to balance true/false positive rates
 
-🌐 Real-World Implications
+**🌐 Real-World Implications**
 
-Without bias mitigation, AI models can perpetuate societal inequalities
+- Without bias mitigation, AI models can perpetuate societal inequalities
 
-High-stakes decisions like hiring or lending could unfairly disadvantage marginalized groups
+- High-stakes decisions like hiring or lending could unfairly disadvantage marginalized groups
 
-Fair AI ensures equitable opportunities for all demographics
+- Fair AI ensures equitable opportunities for all demographics
 
-📌 Recommendations
+**📌 Recommendations**
 
-Regular bias audits and fairness monitoring
+- Regular bias audits and fairness monitoring
 
-Continuous model retraining with updated, balanced data
+- Continuous model retraining with updated, balanced data
 
-Transparency with stakeholders about AI limitations and fairness metrics
+- Transparency with stakeholders about AI limitations and fairness metrics
 
-Adoption of fairness toolkits like Fairlearn or AI Fairness 360
+- Adoption of fairness toolkits like Fairlearn or AI Fairness 360
